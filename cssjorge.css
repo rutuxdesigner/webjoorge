@@ -1,0 +1,45 @@
+h2.desable {
+    color : rgb(55, 195, 20);
+}
+h3.enable {
+    color : rgb(255, 0, 0);
+}
+h1.ordinari {
+    animation: growUp 2s ;
+    animation-duration: 2s;
+    /*animation-delay:2s ;*/
+    /*imation-iteration-count: 1;*/
+    animation-iteration-count: 2;
+    animation-direction:alternate;
+    animation-timeline: reverse;
+    animation-fill-mode: both;
+    color : #0f93bb;
+    border: 2px solid rgb(15, 147, 187);
+    border-bottom: double 2px rgb(15, 147, 187);
+    padding: 25px;
+    text-align: center;
+    font-family: poppins, sans-serif; 
+    font-size: 20px;
+    box-shadow:2px 2px 4px rgba(52, 50, 50, 0.5);
+    text-shadow: 2px 2px 4px rgba(52, 50, 50, 0.5);
+    /*border-radius: 20px;*/
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/*modelo de caja=margin-border-padding*/
+/*ANIMACIONES CSS*/
+@keyframes growUp{
+    0% { 
+        font-size: 16px;
+    }
+    100% { 
+        font-size: 20px;
+        transform: scale(1.5);
+        color: rgb(5, 51, 91);
+    }
+}
+/*CONTROL DE VERSIONES APLICACIONES*/
+
+/*GITHUB*/
+/*BITBUCKET + GIRA*/
+/*GITLAB AUTOMATIZACIÓN DE CODIGO Y TAREAS*/
