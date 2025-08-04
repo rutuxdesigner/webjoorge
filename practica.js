@@ -112,7 +112,83 @@ media --
 media 
 7.5
 
+/*CONCATENA LAS CADENAS DE TEXTO*/
 
+presentación = "hola" + "grupo""
+VM1203:1 Uncaught SyntaxError: Invalid or unexpected tokenUnderstand this error
+presentacion = "hola" + "grupo"
+'holagrupo'
+presentacion
+'holagrupo'
+x="3" + "2"
+'32'
+x= "a" + "b"
+'ab'
+concatena los string (cadenas de texto) 
+
+/* COMPARADORES*/
+
+OPERADORES:
+
+== : igual valor 
+=== : igual valor y tipo
+!= : No igual
+!== : No igual valor y tipo
+> : Mas grande que
+>= : Mas grande o igual que 
+< : Menor que
+<= : menor o igual que 
+
+
+5== 10;
+false
+5<10;
+true
+5== "5";
+true
+5=== "5";
+false
+
+Notas de una Clase 
+
+/* es un objeto por lo que son dos puntos y no un igual */
+notas = {
+    pedro : 7.5,
+    maria : 8,
+ }
+{pedro: 7.5, maria: 8}
+notas.pedro
+7.5
+notas.maria
+8
+notas.pedro == notas.maria
+false
+
+VM2693:5 Uncaught SyntaxError: Unexpected token ':'Understand this error
+notas = {
+    pedro : 7.5,
+    maria : 8,
+    Sara : 9,
+ }
+{pedro: 7.5, maria: 8, Sara: 9}
+
+/* las notas son iguales*/
+notas.pedro == notas.sara
+false
+notas.pedro == notas.maria
+false
+notas.pedro != notas.aria
+true
+notas.maria > notas.pedro
+true
+notas.maria< notas.saa
+false
+notas.pedro >= notas.maria
+false
+notas.pedro <= notas.maria
+true
+ 
+/*CONDICIONALES*/
 
 
 
