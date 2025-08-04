@@ -190,6 +190,62 @@ true
  
 /*CONDICIONALES*/
 
+edad = 36
+
+36
+if (edad>18) {
+
+    aceptado = true;
+}
+true
+aceptado 
+true
+
+if (edad >=18){
+    aceptado = true
+}
+true
+
+if (edad >=18){
+    aceptado = true;
+}else {
+    aceptado=false;
+}
+
+true
+aceptado
+true
+
+edad = 16 
+if (edad >=18){
+    aceptado = true;
+}else {
+    aceptado=false;
+
+16
+
+if (edad >=18){
+    aceptado = true;
+}else {
+    aceptado=false;
+}
+false
+
+/*edad 36, ticket es verdadero, si la edad es igual o mayor de 18 es
+ aceptado y si además tiene ticket, también es aceptado*/
+edad
+16
+edad= 36
+36
+ticket = true
+true
+if (edad>=18 && /*ademas*/ ticket == true) {
+    aceptado = true;
+}else {
+    aceptado = false;
+}
+true
+
 
 
 
