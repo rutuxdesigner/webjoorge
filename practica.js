@@ -247,6 +247,29 @@ if (edad>=18 && /*ademas*/ ticket == true) {
 true
 
 
+/*edad 36, ticket es verdadero, si la edad es igual o mayor 
+de 18 es aceptado y si además tiene ticket, también es aceptado*/
+
+ticket = false; 
+false
+if (edad>=18 &&  ticket == true) {
+    aceptado = true
+}else {
+    aceptado = false
+}
+false
+edad = 16
+16
+ticket= true
+true
+acompañado = true 
+true
+if (ticket==true && (edad>=18 || acompañado ==true)) {
+    aceptado=true
+}else {
+    aceptado=false
+}
+true
 
 
 
