@@ -305,3 +305,29 @@ VM824:2 2: No volveré hablar en clase
 VM824:2 3: No volveré hablar en clase
 VM824:2 4: No volveré hablar en clase
 
+/*jugar con los arrays*/
+/*si tengo un array muy grande, nos permitiria con este bucle, me 
+permitiria mostrar todas las marcas que tenga en el documento.*/
+
+marcas=["bmw","audi","Seat","Volvo"];
+(4) ['bmw', 'audi', 'Seat', 'Volvo']
+for (indice in marcas){
+    console.log(marcas[indice])
+}
+VM1311:4 bmw
+VM1311:4 audi
+VM1311:4 Seat
+VM1311:4 Volvo
+
+/*FUNCIONES*/
+/*Nos sirve para crear trozos de código que tienen una función muy concreta
+y poder ser reutilizada cuantas veces deseemos.*/
+
+function sumar (a,b) {
+    return a+b
+}
+function restar (a,b){
+    return a-b;
+}
+x=sumar (3,6);
+y=restar(6,3);
