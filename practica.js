@@ -1,3 +1,5 @@
+/*BASES DE PROGRAMACION*/
+
 /*CONJUNTO DE DATOS*/
 
 edades = [22,28,34,35,43,52]
@@ -329,5 +331,32 @@ function sumar (a,b) {
 function restar (a,b){
     return a-b;
 }
+/*se llama pasar parametros*/
 x=sumar (3,6);
 y=restar(6,3);
+
+
+function sumar (a,b){
+    return a+b
+}
+undefined
+sumar(2,3)
+5
+sumar (5,8)
+13
+sumar(3213546387687,6546354654654)
+9759901042341
+
+
+function retar(a,b){
+    restar a-b
+}
+
+function restar (a,b) {
+    return a-b
+}
+
+restar (3,2)
+1
+sumar (50,30)
+80
