@@ -264,12 +264,44 @@ ticket= true
 true
 acompañado = true 
 true
-if (ticket==true && (edad>=18 || acompañado ==true)) {
+if (ticket==true && /*y*/ (edad>=18 ||/*ó*/ acompañado ==true)) {
     aceptado=true
 }else {
     aceptado=false
 }
 true
 
+/*CONDICIONES SIMPLE, SIMPLE CON AND O SIMPLE CON OR*/
+if (x>y) then
+if (x>y and a>b) then
+if (x>y or a>b) then
 
+/*BUCLES, NOS PERMITE ITERAR UNA PORCIÓN DE CÓDIGO*/
+/*CASTIGO REPITIENDO LA MISMA FRASE:)*/
+undefined
+MIENTRAS PASE UNA CONDICION, ME EJECUTAS ESTA CONDICIÓN
+
+for (i=1;i<5;i++) then
+
+for (edad in edades)then
+
+/*CoN FOR 1º HAY QUE DECIRLE DONDE EMPIEZA*/
+
+for (i=1;i<5;i++) {
+    console.log(i) /*para imprimir un valor*/
+}
+VM679:2 1
+VM679:2 2
+VM679:2 3
+VM679:2 4
+
+/*i es igual a 1 ¿i es menor de 5? además incrementame 1*/
+
+for (i=1;i<5;i++) {
+    console.log(i +": No volveré hablar en clase"); (i + /*concatename el numero con el string*/)
+}
+VM824:2 1: No volveré hablar en clase
+VM824:2 2: No volveré hablar en clase
+VM824:2 3: No volveré hablar en clase
+VM824:2 4: No volveré hablar en clase
 
