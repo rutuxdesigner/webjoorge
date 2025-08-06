@@ -2,20 +2,16 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-        
-            <h1 class="ordinari"> PRACTICA HTML-MINOR FULL STACK</h1>
-            <h2 class="desable">Título nivel 2</h2>
-            <h3 class="enable">Título nivel 1</h1>
-
     <link rel="stylesheet" href="style1.css" type="text/css" />
-
     <!--AÑADIR JAVASCRPT EN EL HEAD-->
-    
     <script type="text/javascript">
-        console.log{hola, ¿que tal?}
+        console.log{'hola, ¿que tal'};
     </script>
 </head>
 <body>
+    <h1 class="ordinari"> PRACTICA HTML-MINOR FULL STACK</h1>
+    <h2 class="desable">Título nivel 2</h2>
+    <h3 class="enable">Título nivel 3</h3>
 
 <p>En un<em> lugar</em> de la mancha <strong> de cuyo nombre</strong> no quiero acordarme</p>
 <p><a href="https://rutuxdesigner.com/">RUTUX DESIGNER</a></p>
@@ -67,29 +63,31 @@
 
 <!--IMÁGENES-->
 <img src="C:\Users\rutsi\Desktop\CABECERA-LINKEDIN.jpg" alt="CABECERA RUTUX" width="100%" height="100%"/>
-
+    <p class="destacado" id="titulo-h1">Este es un párrafo con un atributo de clase y un atributo de ID.</p>
 <!--FORMULARIOS-->
 Formulario de contacto
-<form action="https://rutuxdesigner.com/" method="post"><br>
+<img src="CABECERA-LINKEDIN.jpg" alt="CABECERA RUTUX" style="width:100%;height:auto;" />
         <label type="Nombre">Nombre:</label><br>
             <input type="text" name="firstmane" placeholder="Escribe aquí tu nombre" required><br>
         <label for="nombre">Email</E-mail>:</label><br>
-            <input type="email" id="nombre" name="password" required><br>
+<form action="https://rutuxdesigner.com/" method="post">
+        <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="firstname" placeholder="Escribe aquí tu nombre" required><br>
+        <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
         <label for="password">Password:</label><br>
-            <input type="password" id="email" name="email" required><br>
+            <input type="password" id="password" name="password" required><br>
 
-        <label>Provincia:</label><br>
-            <select name=""><br>
-                <option>Madrid</option><br>
-                <option>Barcelona</option><br>
-                <option>Valencia</option><br>
-                <option>Sevilla</option><br>
-            </select>
+        <label for="provincia">Provincia:</label><br>
+            <select name="provincia" id="provincia">
+                <option>Madrid</option>
+                <option>Barcelona</option>
+                <option>Valencia</option>
+                <option>Sevilla</option>
+            </select><br>
 
-    
-        <label>Tu comentario</label><br>
-            <textarea name="txt" rows="4" cols="50" placeholder="Escribe aquí tu comentario"></textarea><br>
-
+        <label for="comentario">Tu comentario</label><br>
+            <textarea name="txt" id="comentario" rows="4" cols="50" placeholder="Escribe aquí tu comentario"></textarea><br>
 
         <label>Método de pago</label><br>
             <input type="radio" name="pago" value="tarjeta"> Tarjeta<br>
@@ -104,16 +102,10 @@ Formulario de contacto
             <input type="checkbox" name="caro" value="extra1"> Dorado<br>
             <input type="checkbox" name="menoscaro" value="extra2"> Rojo<br>
             <input type="checkbox" name="masbarato" value="extra3"> Negro<br>   
-        
 
-    <label>
-        <input type="checkbox" name="conditions"> Acepto las condiones y la politica de privacidad</label><br>
-    </label>
+        <label>
+            <input type="checkbox" name="conditions"> Acepto las condiciones y la política de privacidad
+        </label><br>
 
     <button type="submit">Enviar</button>
-    
 </form>
-<!--caniuse.com para saber qué atributos se pueden usar según que navegadores-->
-
-</body>
-</html>

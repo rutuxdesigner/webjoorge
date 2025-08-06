@@ -166,7 +166,6 @@ notas.maria
 notas.pedro == notas.maria
 false
 
-VM2693:5 Uncaught SyntaxError: Unexpected token ':'Understand this error
 notas = {
     pedro : 7.5,
     maria : 8,
